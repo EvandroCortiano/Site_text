@@ -48,7 +48,7 @@
           <div class="col-6 col-xl-2">
             <h1 class="mb-0 site-logo m-0 p-0">
               <a href="index.html" class="mb-0">
-                <img src="images/logo_v2.png" alt="Logo Griff Coberturas">
+                <img src="images/logo_v2.png" alt="Logo Griff Coberturas" width="120px">
               </a>
             </h1>
           </div>
@@ -62,7 +62,11 @@
               </ul>
             </nav>
           </div>
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black float-right">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -72,7 +76,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 mt-lg-6 text-center" style="padding-top: 50px;">
-            <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid">
+            <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid" width="300px">
             <h1>Coberturas em vidro e policarbonato fixa e retrátil!</h1>
           </div>
         </div>
@@ -80,7 +84,7 @@
       <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
     </div>
 
-
+    <!-- Como fazemos -->
     <div class="py-5 bg-light site-section how-it-works" id="howitworks-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
@@ -116,6 +120,7 @@
       </div>
     </div>
 
+    <!-- Servicos -->
     <div class="site-section" id="properties-section">
       <div class="container">
         <div class="row mb-5 align-items-center">
@@ -128,34 +133,27 @@
             </div>
           </div>
         </div>
-
         <div class="owl-carousel nonloop-block-13 mb-5">
-
           <div class="property">
             <a href="property-single.html">
               <img src="images/property_1.jpg" alt="Image" class="img-fluid">
             </a>
-
           </div>
-
           <div class="property">
             <a href="property-single.html">
               <img src="images/property_2.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
-
           <div class="property">
             <a href="property-single.html">
               <img src="images/property_3.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
-
           <div class="property">
             <a href="property-single.html">
               <img src="images/property_4.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
-
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4">
@@ -165,12 +163,11 @@
       </div>
     </div>
 
+    <!-- Sobre -->
     <section class="site-section" id="about-section">
       <div class="container">
-
         <div class="row">
           <div class="col-lg-6">
-
             <div class="owl-carousel slide-one-item-alt">
               <img src="images/property_1.jpg" alt="Image" class="img-fluid">
               <img src="images/property_2.jpg" alt="Image" class="img-fluid">
@@ -180,14 +177,11 @@
             <div class="custom-direction">
               <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
             </div>
-
           </div>
           <div class="col-lg-5 ml-auto">
-
             <h2 class="section-title mb-3">We Are The Best RealEstate Company</h2>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
-
             <ul class="list-unstyled ul-check success">
               <li>Placeat maxime animi minus</li>
               <li>Dolore qui placeat maxime</li>
@@ -195,171 +189,70 @@
               <li>Lorem ipsum dolor</li>
               <li>Placeat molestias animi</li>
             </ul>
-
-            <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
-
           </div>
         </div>
       </div>
     </section>
 
-
-
-    <section class="site-section border-bottom bg-light" id="services-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Services</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-house"></span></div>
-              <div>
-                <h3>Search Property</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-coin"></span></div>
-              <div>
-                <h3>Buy Property</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-home"></span></div>
-              <div>
-                <h3>Invest a Home</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-flat"></span></div>
-              <div>
-                <h3>Post Properties</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-location"></span></div>
-              <div>
-                <h3>Property Locator</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary flaticon-mobile-phone"></span></div>
-              <div>
-                <h3>Stated Apps</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
+    <!-- Contato -->
     <section class="site-section bg-light bg-image" id="contact-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
             <!-- <h3 class="section-sub-title">Get</h3> -->
-            <h2 class="section-title mb-3">Contct Us</h2>
+            <h2 class="section-title mb-3">Contato / Orçamento</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-7 mb-5">
-
-
-
             <form action="#" class="p-5 bg-white">
-
-              <h2 class="h4 text-black mb-5">Contact Form</h2>
-
+              <h2 class="h4 text-black mb-5">Contato</h2>
               <div class="row form-group">
-                <div class="col-md-6 mb-3 mb-md-0">
-                  <label class="text-black" for="fname">First Name</label>
+                <div class="col-md-12 mb-6 mb-md-0">
+                  <label class="text-black" for="fname">Nome</label>
                   <input type="text" id="fname" class="form-control">
                 </div>
-                <div class="col-md-6">
-                  <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control">
-                </div>
               </div>
-
               <div class="row form-group">
-
                 <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label>
+                  <label class="text-black" for="email">E-mail</label>
                   <input type="email" id="email" class="form-control">
                 </div>
               </div>
-
               <div class="row form-group">
-
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label>
+                  <label class="text-black" for="subject">Telefone</label>
                   <input type="subject" id="subject" class="form-control">
                 </div>
               </div>
-
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label>
+                  <label class="text-black" for="message">Mensagem</label>
                   <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
                 </div>
               </div>
-
               <div class="row form-group">
                 <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                  <input type="submit" value="Enviar Mensagem" class="btn btn-primary btn-md text-white">
                 </div>
               </div>
-
-
             </form>
           </div>
           <div class="col-md-5">
-
             <div class="p-4 mb-3 bg-white">
-              <p class="mb-0 font-weight-bold">Address</p>
+              <p class="mb-0 font-weight-bold">Endereço</p>
               <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
-
-              <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
-
-              <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
-
+              <p class="mb-0 font-weight-bold">Telefone</p>
+              <p class="mb-4"><a href="#">(41) 9999-9999</a></p>
+              <p class="mb-0 font-weight-bold">E-mail</p>
+              <p class="mb-0"><a href="#">contato@griffcoberturas.com.br</a></p>
             </div>
-
           </div>
         </div>
       </div>
     </section>
 
-
+    <!-- Rodape -->
     <footer class="site-footer">
       <div class="container">
         <div class="row">

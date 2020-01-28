@@ -16,8 +16,11 @@ body {
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+  color: #4582b4;
+  }
   a:hover {
+    color: #f69314;
     text-decoration: none; }
 
 h1, h2, h3, h4, h5,
@@ -76,7 +79,8 @@ h1, h2, h3, h4, h5,
     border-color: #f69314;
     color: #fff; }
     .btn.btn-primary:hover {
-      background: #343a40;
+      background: #4582b4;
+      /* background: #343a40; */
       color: #fff;
       border-color: #343a40; }
     .btn.btn-primary.btn-black--hover:hover {
@@ -1373,7 +1377,8 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase; }
 
 .section-title {
-  color: #f69314;
+  color: #4582b4;
+  /* color: #f69314; */
   font-size: 40px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
