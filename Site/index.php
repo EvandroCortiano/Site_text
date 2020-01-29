@@ -56,8 +56,8 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#properties-section" class="nav-link">Nossos Serviços</a></li>
                 <li><a href="#about-section" class="nav-link">Sobre</a></li>
+                <li><a href="#properties-section" class="nav-link">Nossos Serviços</a></li>
                 <li><a href="#contact-section" class="nav-link">Contato</a></li>
               </ul>
             </nav>
@@ -84,8 +84,53 @@
       <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
     </div>
 
+    <!-- Sobre -->
+    <section class="site-section" id="about-section">
+      <div class="container">
+      <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3">Sobre</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="owl-carousel slide-one-item-alt img-sobre">
+              <img src="images/sedegriff_01.jpg" alt="Image" class="img-fluid img-sobre">
+              <img src="images/sedegriff_02.jpg" alt="Image" class="img-fluid img-sobre">
+              <img src="images/sedegriff_03.jpg" alt="Image" class="img-fluid img-sobre">
+            </div>
+            <div class="custom-direction">
+              <a href="#" class="custom-prev"><b>&nbsp; < &nbsp;</b></a><a href="#" class="custom-next"><b>&nbsp; > &nbsp;</b></a>
+            </div>
+          </div>
+          <div class="col-lg-5 ml-auto">
+            <h2 class="section-sub-title mb-3">Empresa</h2>
+            <p>A griff coberturas esta no mercado desde 2009, oferecendo aos seus clientes o que a de melhor em 
+              coberturas em vidro e policarbonato, fixa ou retrátil, proporcionando soluções rápidas e eficaz, 
+              dando assim um toque de sofisticação e requinte em seu ambiente.</p>
+            <h2 class="section-sub-title mb-3">Missão</h2>
+            <p>Prestar um serviço de qualidade com rapidez na entrega, garantindo um preço justo aos nossos 
+              clientes e amigos.</p>
+            <h2 class="section-sub-title mb-3">Objetivo</h2>
+            <p>Estar sempre a disposição de nossos clientes para esclarecer qualquer duvida, usando total 
+              transparência e honestidade para com nossos clientes. A griff coberturas vem inovando cada vez 
+              mais buscando o que a de melhor no mercado pra assim poder atingir 100 por cento de satisfação 
+              aos seus clientes.</p>
+            <!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+            <!-- <ul class="list-unstyled ul-check success">
+              <li>Placeat maxime animi minus</li>
+              <li>Dolore qui placeat maxime</li>
+              <li>Consectetur adipisicing</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Placeat molestias animi</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Como fazemos -->
-    <div class="py-5 bg-light site-section how-it-works" id="howitworks-section">
+    <!-- <div class="py-5 bg-light site-section how-it-works" id="howitworks-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
@@ -118,7 +163,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Servicos -->
     <div class="site-section" id="properties-section">
@@ -162,37 +207,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Sobre -->
-    <section class="site-section" id="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="owl-carousel slide-one-item-alt">
-              <img src="images/property_1.jpg" alt="Image" class="img-fluid">
-              <img src="images/property_2.jpg" alt="Image" class="img-fluid">
-              <img src="images/property_3.jpg" alt="Image" class="img-fluid">
-              <img src="images/property_4.jpg" alt="Image" class="img-fluid">
-            </div>
-            <div class="custom-direction">
-              <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
-            </div>
-          </div>
-          <div class="col-lg-5 ml-auto">
-            <h2 class="section-title mb-3">We Are The Best RealEstate Company</h2>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
-            <ul class="list-unstyled ul-check success">
-              <li>Placeat maxime animi minus</li>
-              <li>Dolore qui placeat maxime</li>
-              <li>Consectetur adipisicing</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Placeat molestias animi</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Contato -->
     <section class="site-section bg-light bg-image" id="contact-section">
@@ -246,6 +260,8 @@
               <p class="mb-4"><a href="#">(41) 9999-9999</a></p>
               <p class="mb-0 font-weight-bold">E-mail</p>
               <p class="mb-0"><a href="#">contato@griffcoberturas.com.br</a></p>
+              <br><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.557330100153!2d-49.210477700000006!3d-25.519805900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa70799f6ac9%3A0xdf962fa8025dfb5b!2sR.+Leonel+Bassan%2C+323+-+Cidade+Jardim%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83035-460!5e0!3m2!1spt-BR!2sbr!4v1429972720971" width="410" height="350" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
         </div>
