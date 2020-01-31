@@ -75,13 +75,49 @@
     <div class="site-blocks-cover overlay" style="background-image: url(images/banner_1.jpg);" data-aos="fade" id="home-section">
       <div class="container">
         <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 mt-lg-6 text-center" style="padding-top: 50px;">
+          <div class="col-md-8 mt-lg-6 text-center" style="padding-top: 10px;">
             <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid" width="300px">
-            <h1>Coberturas em vidro e policarbonato fixa e retrátil!</h1>
+            <h1>Harmonize seu ambiente com as coberturas de vidro e policarbonato, fixa ou retrátil!</h1>
           </div>
         </div>
       </div>
       <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
+    </div>
+
+    <!-- Como fazemos -->
+    <div class="py-5 bg-light site-section how-it-works" id="howitworks-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3">Diferenciais</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-house text-primary"></span>
+              <h3 class="text-dark">Materiais de qualidade</h3>
+              <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-home text-primary"></span>
+              <h3 class="text-dark">Profissionais Experientes</h3>
+              <p>Equipe de profissionais especializados e com mais de 10 anos de experiências.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-coin text-primary"></span>
+              <h3 class="text-dark">Preços Justo</h3>
+              <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Sobre -->
@@ -116,93 +152,49 @@
               transparência e honestidade para com nossos clientes. A griff coberturas vem inovando cada vez 
               mais buscando o que a de melhor no mercado pra assim poder atingir 100 por cento de satisfação 
               aos seus clientes.</p>
-            <!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
-            <!-- <ul class="list-unstyled ul-check success">
-              <li>Placeat maxime animi minus</li>
-              <li>Dolore qui placeat maxime</li>
-              <li>Consectetur adipisicing</li>
-              <li>Lorem ipsum dolor</li>
-              <li>Placeat molestias animi</li>
-            </ul> -->
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Como fazemos -->
-    <!-- <div class="py-5 bg-light site-section how-it-works" id="howitworks-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-7 text-center">
-            <h2 class="section-title mb-3">How It Works</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-house text-primary"></span>
-              <h3 class="text-dark">Find Property.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-coin text-primary"></span>
-              <h3 class="text-dark">Buy Property.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-home text-primary"></span>
-              <h3 class="text-dark">Make Investment.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Servicos -->
     <div class="site-section" id="properties-section">
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-7 text-left">
-            <h2 class="section-title mb-3">Services</h2>
+            <h2 class="section-title mb-3">Nossos Serviços</h2>
           </div>
           <div class="col-md-5 text-left text-md-right">
             <div class="custom-nav1">
-              <a href="#" class="custom-prev1">Previous</a><span class="mx-3">/</span><a href="#" class="custom-next1">Next</a>
+              <a href="#" class="custom-prev1">Anterior</a><span class="mx-3">/</span><a href="#" class="custom-next1">Próximo</a>
             </div>
           </div>
         </div>
         <div class="owl-carousel nonloop-block-13 mb-5">
           <div class="property">
             <a href="property-single.html">
-              <img src="images/property_1.jpg" alt="Image" class="img-fluid">
+              <img src="images/servico_01.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="property">
             <a href="property-single.html">
-              <img src="images/property_2.jpg" alt="Image" class="img-fluid">
+              <img src="images/servico_02.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="property">
             <a href="property-single.html">
-              <img src="images/property_3.jpg" alt="Image" class="img-fluid">
+              <img src="images/servico_03.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="property">
             <a href="property-single.html">
-              <img src="images/property_4.jpg" alt="Image" class="img-fluid">
+              <img src="images/servico_04.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4">
-            <a href="listings.html" class="btn btn-primary btn-block">View All Property Listings</a>
+            <a href="gallery.php" class="btn btn-primary btn-block">PORTFOLIO DE SERVIÇOS</a>
           </div>
         </div>
       </div>
@@ -220,7 +212,7 @@
         <div class="row">
           <div class="col-md-7 mb-5">
             <form action="#" class="p-5 bg-white">
-              <h2 class="h4 text-black mb-5">Contato</h2>
+              <!-- <h2 class="h4 text-black mb-5">Contato</h2> -->
               <div class="row form-group">
                 <div class="col-md-12 mb-6 mb-md-0">
                   <label class="text-black" for="fname">Nome</label>
@@ -242,7 +234,7 @@
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-black" for="message">Mensagem</label>
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Digite aqui sua mensagem..."></textarea>
                 </div>
               </div>
               <div class="row form-group">
@@ -255,12 +247,16 @@
           <div class="col-md-5">
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Endereço</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="mb-4">Rua Leonel Bassan, 323 Cidade Jardim, São José dos Pinhais - PR</p>
               <p class="mb-0 font-weight-bold">Telefone</p>
-              <p class="mb-4"><a href="#">(41) 9999-9999</a></p>
+              <p class="mb-4">
+                  <a href="#">(41) 4111-2251</a>
+                  &nbsp;&nbsp;-&nbsp;&nbsp;
+                  <a href="#">(41) 98831-9895</a>
+              </p>
               <p class="mb-0 font-weight-bold">E-mail</p>
               <p class="mb-0"><a href="#">contato@griffcoberturas.com.br</a></p>
-              <br><br>
+              <br>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.557330100153!2d-49.210477700000006!3d-25.519805900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa70799f6ac9%3A0xdf962fa8025dfb5b!2sR.+Leonel+Bassan%2C+323+-+Cidade+Jardim%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83035-460!5e0!3m2!1spt-BR!2sbr!4v1429972720971" width="410" height="350" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
@@ -275,54 +271,36 @@
           <div class="col-md-8">
             <div class="row">
               <div class="col-md-5">
-                <h2 class="footer-heading mb-4">About Stated</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <h2 class="footer-heading mb-4">Griff Coberturas</h2>
+                <p>Temos o prazer de oferecer os melhores materiais para sua cobertura, prezamos pela qualidade do serviço prestado e relacionamento com nosso clientes.</p>
               </div>
               <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <h2 class="footer-heading mb-4">Links Rápidos</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#about-section">Sobre</a></li>
+                  <li><a href="#properties-section">Nossos Serviços</a></li>
+                  <li><a href="#contact-section">Contato</a></li>
                 </ul>
               </div>
-
             </div>
           </div>
           <div class="col-md-4">
-            <div class="mb-4">
-              <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-              <form action="#" method="post" class="footer-subscribe">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-
             <div class="">
-              <h2 class="footer-heading mb-4">Follow Us</h2>
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </div>
-
-
+              <h2 class="footer-heading mb-4">Siga-nos</h2>
+              <a href="https://www.facebook.com/Griff-coberturas-em-Policarbonato-1374382819539280/" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a> -->
+              <a href="https://br.linkedin.com/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <!-- <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
+              </div>
           </div>
         </div>
-        <div class="row pt-5 mt-5 text-center">
+        <div class="row text-center">
           <div class="col-md-12">
-            <div class="border-top pt-5">
+            <div class="border-top">
               <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;<script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </script> Todos os direitos reservados | Desenvolvido por <a href="http://evandrocortiano.com.br/" target="_blank">Evandro C Cortiano</a>
               </p>
             </div>
           </div>
