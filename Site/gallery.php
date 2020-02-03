@@ -55,10 +55,11 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#about-section" class="nav-link">Sobre</a></li>
-                <li><a href="#properties-section" class="nav-link">Nossos Serviços</a></li>
-                <li><a href="#contact-section" class="nav-link">Contato</a></li>
+                <li><a href="index.php#home-section" class="nav-link">Home</a></li>
+                <li><a href="index.php#about-section" class="nav-link">Sobre</a></li>
+                <li><a href="index.php#services-section" class="nav-link">Nossos Serviços</a></li>
+                <li><a href="#gallery-section" class="nav-link">Portifólio</a></li>
+                <li><a href="index.php#contact-section" class="nav-link">Contato</a></li>
               </ul>
             </nav>
           </div>
@@ -84,6 +85,11 @@
       <a href="#howitworks-section" class="smoothscroll arrow-down"><span class="icon-arrow_downward"></span></a>
     </div>
 
+    <!-- Galeria de fotos/videos -->
+    <section class="site-section bg-light bg-image" id="gallery-section">
+      <div class="container">
+      </div>
+    </section>
 
     <!-- Rodape -->
     <footer class="site-footer">
@@ -98,10 +104,10 @@
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Links Rápidos</h2>
                 <ul class="list-unstyled">
-                  <li><a href="index.php">Sobre</a></li>
-                  <li><a href="index.php">Nossos Serviços</a></li>
-                  <li><a href="#gallery">Portifólio</a></li>
-                  <li><a href="index.php">Contato</a></li>
+                  <li><a href="index.php#about-section">Sobre</a></li>
+                  <li><a href="index.php#services-section">Nossos Serviços</a></li>
+                  <li><a href="#gallery-section">Portifólio</a></li>
+                  <li><a href="index.php#contact-section">Contato</a></li>
                 </ul>
               </div>
             </div>

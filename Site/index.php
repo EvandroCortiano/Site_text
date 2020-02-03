@@ -57,7 +57,8 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#about-section" class="nav-link">Sobre</a></li>
-                <li><a href="#properties-section" class="nav-link">Nossos Serviços</a></li>
+                <li><a href="#services-section" class="nav-link">Nossos Serviços</a></li>
+                <li><a href="gallery.php#gallery-section" class="nav-link">Portifólio</a></li>
                 <li><a href="#contact-section" class="nav-link">Contato</a></li>
               </ul>
             </nav>
@@ -95,7 +96,7 @@
         <div class="row">
           <div class="col-md-4 text-center">
             <div class="pr-5">
-              <span class="custom-icon flaticon-house text-primary"></span>
+              <span class="custom-icon flaticon-home text-primary"></span>
               <h3 class="text-dark">Materiais de qualidade</h3>
               <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
             </div>
@@ -103,9 +104,9 @@
 
           <div class="col-md-4 text-center">
             <div class="pr-5">
-              <span class="custom-icon flaticon-home text-primary"></span>
+              <span class="custom-icon flaticon-house text-primary"></span>
               <h3 class="text-dark">Profissionais Experientes</h3>
-              <p>Equipe de profissionais especializados e com mais de 10 anos de experiências.</p>
+              <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
             </div>
           </div>
 
@@ -158,7 +159,7 @@
     </section>
 
     <!-- Servicos -->
-    <div class="site-section" id="properties-section">
+    <div class="site-section" id="services-section">
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-7 text-left">
@@ -192,9 +193,34 @@
             </a>
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row how-it-works">
+          <div class="col-md-4 text-center how-it-works">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-flat text-primary"></span>
+              <h3 class="text-dark">Coberturas de Vidro</h3>
+              <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center how-it-works">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-flat text-primary"></span>
+              <h3 class="text-dark">Coberturas de Policarbonato</h3>
+              <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center how-it-works">
+            <div class="pr-5">
+              <span class="custom-icon flaticon-flat text-primary"></span>
+              <h3 class="text-dark">Fixa ou Retrátil</h3>
+              <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="padding-top:20px;">
           <div class="col-md-4">
-            <a href="gallery.php" class="btn btn-primary btn-block">PORTFOLIO DE SERVIÇOS</a>
+            <a href="gallery.php" class="btn btn-primary btn-block">PORTFOLIO DOS SERVIÇOS</a>
           </div>
         </div>
       </div>
@@ -278,7 +304,8 @@
                 <h2 class="footer-heading mb-4">Links Rápidos</h2>
                 <ul class="list-unstyled">
                   <li><a href="#about-section">Sobre</a></li>
-                  <li><a href="#properties-section">Nossos Serviços</a></li>
+                  <li><a href="#services-section">Nossos Serviços</a></li>
+                  <li><a href="gallery.php">Portifólio</a></li>
                   <li><a href="#contact-section">Contato</a></li>
                 </ul>
               </div>
