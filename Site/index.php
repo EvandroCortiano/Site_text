@@ -78,7 +78,7 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-md-8 mt-lg-6 text-center" style="padding-top: 10px;">
             <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid" width="300px">
-            <h1>Harmonize seu ambiente com as coberturas de vidro e policarbonato, fixa ou retrátil!</h1>
+            <h1>Harmonize seu ambiente com as coberturas de vidro e policarbonato, fixa ou retráteis!</h1>
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@
           <div class="col-md-4 text-center how-it-works">
             <div class="pr-5">
               <span class="custom-icon flaticon-flat text-primary"></span>
-              <h3 class="text-dark">Fixa ou Retrátil</h3>
+              <h3 class="text-dark">Fixa ou Retráteis</h3>
               <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
             </div>
           </div>
