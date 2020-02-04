@@ -9,17 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:400,700,900 " rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  
-  
-  <!-- <link rel="stylesheet" href="css/jquery-ui.css"> -->
-  <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/jquery.fancybox.min.css"> -->
-  <!-- <link rel="stylesheet" href="css/bootstrap-datepicker.css"> -->
-  <!-- <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css"> -->
-  <!-- <link rel="stylesheet" href="css/aos.css"> -->
-
-
+  <link href="css/gallery/font-awesome.min.css" rel="stylesheet">
+  <link href="css/gallery/prettyPhoto.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -85,13 +76,72 @@
     <!-- Galeria de fotos/videos -->
     <section class="site-section bg-light bg-image" id="gallery-section">
     <div class="container">
-        <div class="row mb-5 justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-md-7 text-center">
             <h2 class="section-title mb-3">Trabalhos Realizados!</h2>
           </div>
         </div>
         <div class="row">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+          <ul class="portfolio-filter content-center">
+              <li><a class="btn btn-outline-primary active" data-filter="*">Todos</a></li>
+              <li><a class="btn btn-outline-primary" data-filter=".vidro">Vidro</a></li>
+              <li><a class="btn btn-outline-primary" data-filter=".polic">Policarbonato</a></li>
+              <li><a class="btn btn-outline-primary" data-filter=".retra">Retráteis</a></li>
+              <li><a class="btn btn-outline-primary" data-filter=".video">Videos</a></li>
+          </ul>
+
+          <ul class="portfolio-items col-md-12">
+              <li class="portfolio-item col-md-3 vidro">
+                  <div class="item-inner">
+                      <img src="../gallery/images/portfolio/thumb/item1.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>             
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3">
+                  <div class="item-inner">
+                      <img src="fotos_videos/00ce52d8-6a78-4cd5-9d0c-b11eafd51dc7.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="fotos_videos/00ce52d8-6a78-4cd5-9d0c-b11eafd51dc7.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>              
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3">
+                  <div class="item-inner">
+                      <img src="../gallery/images/portfolio/thumb/item3.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3">
+                  <div class="item-inner">
+                      <img src="../gallery/images/portfolio/thumb/item4.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3">
+                  <div class="item-inner">
+                      <img src="../gallery/images/portfolio/thumb/item5.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
+                      </div>    
+                  </div>       
+              </li>
+              <li class="portfolio-item col-md-3">
+                  <div class="item-inner">
+                      <img src="../gallery/images/portfolio/thumb/item6.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="icon-play"></i></a>           
+                      </div>           
+                  </div>           
+              </li>
+          </ul>
+        
         </div>
       </div>
     </section>
@@ -145,20 +195,15 @@
   </div> <!-- .site-wrap -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>  
   <script src="js/jquery-ui.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/jquery.countdown.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.sticky.js"></script>
-
-  <!-- <script src="js/popper.min.js"></script> -->
-  <!-- <script src="js/bootstrap.min.js"></script> -->
-  <!-- <script src="js/bootstrap-datepicker.min.js"></script> -->
-  <!-- <script src="js/jquery.easing.1.3.js"></script> -->
-  <!-- <script src="js/jquery.fancybox.min.js"></script> -->
-
+  <script src="js/gallery/jquery.prettyPhoto.js"></script>
+  <script src="js/gallery/jquery.isotope.min.js"></script>
   <script src="js/main.js"></script>
 
 </body>
