@@ -94,52 +94,77 @@
           <ul class="portfolio-items col-md-12">
               <li class="portfolio-item col-md-3 vidro">
                   <div class="item-inner">
-                      <img src="../gallery/images/portfolio/thumb/item1.jpg" alt="">
+                      <img src="gallery/vidro_1.jpg" alt="">
                       <div class="overlay">
-                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>             
+                          <a class="preview btn btn-info" href="gallery/vidro_1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>             
                       </div>           
                   </div>           
               </li>
-              <li class="portfolio-item col-md-3">
+              <li class="portfolio-item col-md-3 polic">
                   <div class="item-inner">
-                      <img src="fotos_videos/00ce52d8-6a78-4cd5-9d0c-b11eafd51dc7.jpg" alt="">
+                      <img src="gallery/poli_1.jpg" alt="">
                       <div class="overlay">
-                          <a class="preview btn btn-info" href="fotos_videos/00ce52d8-6a78-4cd5-9d0c-b11eafd51dc7.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>              
+                          <a class="preview btn btn-info" href="gallery/poli_1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>              
                       </div>           
                   </div>           
               </li>
-              <li class="portfolio-item col-md-3">
+              <li class="portfolio-item col-md-3 vidro">
                   <div class="item-inner">
-                      <img src="../gallery/images/portfolio/thumb/item3.jpg" alt="">
+                      <img src="gallery/vidro_2.jpg" alt="">
                       <div class="overlay">
-                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
+                          <a class="preview btn btn-info" href="gallery/vidro_2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
                       </div>           
                   </div>           
               </li>
-              <li class="portfolio-item col-md-3">
+              <li class="portfolio-item col-md-3 polic">
                   <div class="item-inner">
-                      <img src="../gallery/images/portfolio/thumb/item4.jpg" alt="">
+                      <img src="gallery/poli_2.jpg" alt="">
                       <div class="overlay">
-                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
+                          <a class="preview btn btn-info" href="gallery/poli_2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
                       </div>           
                   </div>           
               </li>
-              <li class="portfolio-item col-md-3">
+              <li class="portfolio-item col-md-3 vidro">
                   <div class="item-inner">
-                      <img src="../gallery/images/portfolio/thumb/item5.jpg" alt="">
+                      <img src="gallery/vidro_3.jpg" alt="">
                       <div class="overlay">
-                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
-                      </div>    
-                  </div>       
-              </li>
-              <li class="portfolio-item col-md-3">
-                  <div class="item-inner">
-                      <img src="../gallery/images/portfolio/thumb/item6.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="../gallery/images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="icon-play"></i></a>           
+                          <a class="preview btn btn-info" href="gallery/vidro_3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
                       </div>           
                   </div>           
               </li>
+              <li class="portfolio-item col-md-3 polic">
+                  <div class="item-inner">
+                      <img src="gallery/poli_3.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="gallery/poli_3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3 vidro">
+                  <div class="item-inner">
+                      <img src="gallery/vidro_4.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="gallery/vidro_4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3 polic">
+                  <div class="item-inner">
+                      <img src="gallery/poli_4.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="gallery/poli_4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
+                      </div>           
+                  </div>           
+              </li>
+              <li class="portfolio-item col-md-3 vidro retra video">
+                  <div class="item-inner">
+                      <img src="gallery/videos/video_1.jpg" alt="">
+                      <div class="overlay">
+                          <a class="preview btn btn-info" href="gallery/videos/video_1.mp4?iframe=true&width=650&height=420" rel="prettyPhoto"><i class="icon-play"></i></a>          
+                      </div>           
+                  </div>           
+              </li>
+              
           </ul>
         
         </div>
