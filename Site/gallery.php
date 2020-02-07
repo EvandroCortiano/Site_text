@@ -91,82 +91,70 @@
               <li><a class="btn btn-outline-primary" data-filter=".video">Videos</a></li>
           </ul>
 
+          <!-- Carregas imagens e videos -->
           <ul class="portfolio-items col-md-12">
-              <li class="portfolio-item col-md-3 vidro">
+
+            <?php
+              // array com as imagens e videos
+              $data = [
+                ['href'=>'vidro/vidro_1.jpg', 'img'=>'vidro/vidro_1.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_2.jpg', 'img'=>'vidro/vidro_2.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_3.jpg', 'img'=>'vidro/vidro_3.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_4.jpg', 'img'=>'vidro/vidro_4.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_5.jpg', 'img'=>'vidro/vidro_5.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_6.jpg', 'img'=>'vidro/vidro_6.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_7.jpg', 'img'=>'vidro/vidro_7.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_8.jpg', 'img'=>'vidro/vidro_8.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_9.jpg', 'img'=>'vidro/vidro_9.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_10.jpg', 'img'=>'vidro/vidro_10.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_11.jpg', 'img'=>'vidro/vidro_11.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_12.jpg', 'img'=>'vidro/vidro_12.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_13.jpg', 'img'=>'vidro/vidro_13.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_14.jpg', 'img'=>'vidro/vidro_14.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_15.jpg', 'img'=>'vidro/vidro_15.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_16.jpg', 'img'=>'vidro/vidro_16.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_17.jpg', 'img'=>'vidro/vidro_17.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_18.jpg', 'img'=>'vidro/vidro_18.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_19.jpg', 'img'=>'vidro/vidro_19.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_20.jpg', 'img'=>'vidro/vidro_20.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_21.jpg', 'img'=>'vidro/vidro_21.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_22.jpg', 'img'=>'vidro/vidro_22.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_23.jpg', 'img'=>'vidro/vidro_23.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_24.jpg', 'img'=>'vidro/vidro_24.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_25.jpg', 'img'=>'vidro/vidro_25.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_26.jpg', 'img'=>'vidro/vidro_26.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_27.jpg', 'img'=>'vidro/vidro_27.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_28.jpg', 'img'=>'vidro/vidro_28.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_29.jpg', 'img'=>'vidro/vidro_29.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_30.jpg', 'img'=>'vidro/vidro_30.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'vidro/vidro_31.jpg', 'img'=>'vidro/vidro_31.jpg', 'tags'=>'vidro', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de vidro'],
+                ['href'=>'polic/poli_1.jpg', 'img'=>'polic/poli_1.jpg', 'tags'=>'polic', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de Policarbonato'],
+                ['href'=>'polic/poli_2.jpg', 'img'=>'polic/poli_2.jpg', 'tags'=>'polic', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de Policarbonato'],
+                ['href'=>'polic/poli_3.jpg', 'img'=>'polic/poli_3.jpg', 'tags'=>'polic', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de Policarbonato'],
+                ['href'=>'polic/poli_4.jpg', 'img'=>'polic/poli_4.jpg', 'tags'=>'polic', 'icon'=>'icon-eye-open', 'alt'=>'Coberturas de Policarbonato'],
+                ['href'=>'videos/video_1.mp4?iframe=true&width=650&height=420', 'img'=>'videos/video_1.jpg', 'tags'=>'vidro retra video', 'icon'=>'icon-play', 'alt'=>'Cobertura retrateis de vidro']
+              ];
+              // ordenar randonicamente o array
+              shuffle($data);
+              // percorre array com as imagens e videos
+              foreach($data as $dt){
+              ?>
+                <li class="portfolio-item col-md-3 <?php echo $dt['tags'] ?>">
                   <div class="item-inner">
-                      <img src="gallery/vidro_1.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/vidro_1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>             
-                      </div>           
+                    <img src="gallery/<?php echo $dt['img'] ?>" alt="<?php echo $dt['alt'] ?>"/>
+                    <div class="overlay">
+                        <a class="preview btn btn-info" href="gallery/<?php echo $dt['href'] ?>" rel="prettyPhoto">
+                          <i class="<?php echo $dt['icon'] ?>"></i>
+                        </a>             
+                    </div>   
                   </div>           
-              </li>
-              <li class="portfolio-item col-md-3 polic">
-                  <div class="item-inner">
-                      <img src="gallery/poli_1.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/poli_1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>              
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 vidro">
-                  <div class="item-inner">
-                      <img src="gallery/vidro_2.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/vidro_2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 polic">
-                  <div class="item-inner">
-                      <img src="gallery/poli_2.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/poli_2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 vidro">
-                  <div class="item-inner">
-                      <img src="gallery/vidro_3.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/vidro_3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 polic">
-                  <div class="item-inner">
-                      <img src="gallery/poli_3.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/poli_3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 vidro">
-                  <div class="item-inner">
-                      <img src="gallery/vidro_4.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/vidro_4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>        
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 polic">
-                  <div class="item-inner">
-                      <img src="gallery/poli_4.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/poli_4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>          
-                      </div>           
-                  </div>           
-              </li>
-              <li class="portfolio-item col-md-3 vidro retra video">
-                  <div class="item-inner">
-                      <img src="gallery/videos/video_1.jpg" alt="">
-                      <div class="overlay">
-                          <a class="preview btn btn-info" href="gallery/videos/video_1.mp4?iframe=true&width=650&height=420" rel="prettyPhoto"><i class="icon-play"></i></a>          
-                      </div>           
-                  </div>           
-              </li>
+                </li>
+              <?php
+              }
+            ?>
               
           </ul>
-        
+          <!-- Fim fotos e videos -->
         </div>
       </div>
     </section>

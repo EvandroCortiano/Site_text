@@ -237,7 +237,7 @@
         </div>
         <div class="row">
           <div class="col-md-7 mb-5">
-            <form action="#" class="p-5 bg-white">
+            <form action="sendmail.php" class="p-5 bg-white">
               <!-- <h2 class="h4 text-black mb-5">Contato</h2> -->
               <div class="row form-group">
                 <div class="col-md-12 mb-6 mb-md-0">
@@ -253,8 +253,8 @@
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Telefone</label>
-                  <input type="subject" id="subject" class="form-control">
+                  <label class="text-black" for="phone">Telefone</label>
+                  <input type="phone" id="phone" class="form-control">
                 </div>
               </div>
               <div class="row form-group">
@@ -276,8 +276,6 @@
               <p class="mb-4">Rua Leonel Bassan, 323 Cidade Jardim, São José dos Pinhais - PR</p>
               <p class="mb-0 font-weight-bold">Telefone</p>
               <p class="mb-4">
-                  <a href="#">(41) 4111-2251</a>
-                  &nbsp;&nbsp;-&nbsp;&nbsp;
                   <a href="#">(41) 98831-9895</a>
               </p>
               <p class="mb-0 font-weight-bold">E-mail</p>
