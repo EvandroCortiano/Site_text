@@ -194,7 +194,7 @@
           </div>
         </div>
         <div class="row how-it-works">
-          <div class="col-md-4 text-center how-it-works">
+          <div class="col-md-6 text-center how-it-works">
             <div class="pr-5">
               <span class="custom-icon flaticon-flat text-primary"></span>
               <h3 class="text-dark">Coberturas de Vidro</h3>
@@ -202,7 +202,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center how-it-works">
+          <div class="col-md-6 text-center how-it-works">
             <div class="pr-5">
               <span class="custom-icon flaticon-flat text-primary"></span>
               <h3 class="text-dark">Coberturas de Policarbonato</h3>
@@ -210,13 +210,6 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center how-it-works">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-flat text-primary"></span>
-              <h3 class="text-dark">Fixa ou Retráteis</h3>
-              <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
-            </div>
-          </div>
         </div>
         <div class="row justify-content-center" style="padding-top:20px;">
           <div class="col-md-4">
