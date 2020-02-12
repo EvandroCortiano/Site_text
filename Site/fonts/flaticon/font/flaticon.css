@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 28/03/2019 08:10
+  	Creation date: 12/02/2020 12:26
   	*/
 
 @font-face {
@@ -25,7 +25,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-style: normal;
+        font-style: 50px;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
@@ -36,10 +36,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-house:before { content: "\f100"; }
-.flaticon-coin:before { content: "\f101"; }
-.flaticon-home:before { content: "\f102"; }
-.flaticon-flat:before { content: "\f103"; }
-.flaticon-location:before { content: "\f104"; }
-.flaticon-mobile-phone:before { content: "\f105"; }
-.flaticon-settings:before { content: "\f100"; }
+.flaticon-sketch:before { content: "\f100"; }
+.flaticon-sketch-1:before { content: "\f101"; }
+.flaticon-wrench:before { content: "\f102"; }
+.flaticon-roof:before { content: "\f103"; }
+.flaticon-ui:before { content: "\f104"; }
+.flaticon-contract:before { content: "\f105"; }
+.flaticon-blueprint:before { content: "\f106"; }
+.flaticon-tile:before { content: "\f107"; }
+.flaticon-roof-1:before { content: "\f108"; }
+.flaticon-wrench-1:before { content: "\f109"; }

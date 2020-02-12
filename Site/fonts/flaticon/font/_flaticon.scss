@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 28/03/2019 08:10
+    Creation date: 12/02/2020 12:26
     */
 
     @font-face {
@@ -37,16 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-house:before { content: "\f100"; }
-.flaticon-coin:before { content: "\f101"; }
-.flaticon-home:before { content: "\f102"; }
-.flaticon-flat:before { content: "\f103"; }
-.flaticon-location:before { content: "\f104"; }
-.flaticon-mobile-phone:before { content: "\f105"; }
+    .flaticon-sketch:before { content: "\f100"; }
+.flaticon-sketch-1:before { content: "\f101"; }
+.flaticon-wrench:before { content: "\f102"; }
+.flaticon-roof:before { content: "\f103"; }
+.flaticon-ui:before { content: "\f104"; }
+.flaticon-contract:before { content: "\f105"; }
+.flaticon-blueprint:before { content: "\f106"; }
+.flaticon-tile:before { content: "\f107"; }
+.flaticon-roof-1:before { content: "\f108"; }
+.flaticon-wrench-1:before { content: "\f109"; }
     
-    $font-Flaticon-house: "\f100";
-    $font-Flaticon-coin: "\f101";
-    $font-Flaticon-home: "\f102";
-    $font-Flaticon-flat: "\f103";
-    $font-Flaticon-location: "\f104";
-    $font-Flaticon-mobile-phone: "\f105";
+    $font-Flaticon-sketch: "\f100";
+    $font-Flaticon-sketch-1: "\f101";
+    $font-Flaticon-wrench: "\f102";
+    $font-Flaticon-roof: "\f103";
+    $font-Flaticon-ui: "\f104";
+    $font-Flaticon-contract: "\f105";
+    $font-Flaticon-blueprint: "\f106";
+    $font-Flaticon-tile: "\f107";
+    $font-Flaticon-roof-1: "\f108";
+    $font-Flaticon-wrench-1: "\f109";

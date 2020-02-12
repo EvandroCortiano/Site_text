@@ -96,7 +96,7 @@
         <div class="row">
           <div class="col-md-4 text-center">
             <div class="pr-5">
-              <span class="custom-icon flaticon-home text-primary"></span>
+              <span class="custom-icon flaticon-tile text-primary"></span>
               <h3 class="text-dark">Materiais de qualidade</h3>
               <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
             </div>
@@ -104,7 +104,7 @@
 
           <div class="col-md-4 text-center">
             <div class="pr-5">
-              <span class="custom-icon flaticon-house text-primary"></span>
+              <span class="custom-icon flaticon-wrench-1 text-primary"></span>
               <h3 class="text-dark">Profissionais Experientes</h3>
               <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
             </div>
@@ -112,7 +112,7 @@
 
           <div class="col-md-4 text-center">
             <div class="pr-5">
-              <span class="custom-icon flaticon-coin text-primary"></span>
+              <span class="custom-icon flaticon-contract text-primary"></span>
               <h3 class="text-dark">Preços Justo</h3>
               <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
             </div>
@@ -196,17 +196,29 @@
         <div class="row how-it-works">
           <div class="col-md-6 text-center how-it-works">
             <div class="pr-5">
-              <span class="custom-icon flaticon-flat text-primary"></span>
+              <span class="custom-icon flaticon-roof-1 text-primary"></span>
               <h3 class="text-dark">Coberturas de Vidro</h3>
-              <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
+              <p>A cobertura de vidro proporciona em seu ambiente varios beneficios, como beleza, durabilidade,
+                resistência. Aproveitamento da luz solar, nas opções fixas e retráteis. Podendo ser instalado
+                em garagem, lavanderias, churrasqueiras ou onde for necessário. 
+                Tendo opções de ser instalada com pelicula prata 0.6 refletiva, rejeitando ate 92% da energia solar.
+                <b>Extrutura para vidro:</b>
+                Vidro 8 milimetros incolor Perfil de alumínio pintura epóxi calha com pintura epóxi retratil motor p.p.a 
+                digital, retratil manual e fixa.
+              </p>
             </div>
           </div>
 
           <div class="col-md-6 text-center how-it-works">
             <div class="pr-5">
-              <span class="custom-icon flaticon-flat text-primary"></span>
+              <span class="custom-icon flaticon-roof text-primary"></span>
               <h3 class="text-dark">Coberturas de Policarbonato</h3>
-              <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
+              <p>Chapas 6 ou 10 milimetros produto de alta qualidade, trazendo beleza, durabilidade, passagem de luz solar.
+                Podendo ser aplicado em extruturas retas ou curvas. O policarbonato oferece varias cores, sendo elas:
+                bronze, fume, cristal, azul, verde, branco, prata e pérola.
+                <b>Extrutura para policarbonato:</b>
+                Alumínio e calha com pintura epóxi, podendo ser retrátil motorizada, fixa ou retratil manual.
+              </p>
             </div>
           </div>
 
