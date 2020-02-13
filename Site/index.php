@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564967-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156564967-1');
+  </script>
+  <!-- Gloogle -->
+
   <title>Griff Coberturas</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -95,27 +105,21 @@
         </div>
         <div class="row">
           <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-tile text-primary"></span>
-              <h3 class="text-dark">Materiais de qualidade</h3>
-              <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
-            </div>
+            <span class="custom-icon flaticon-tile text-primary"></span>
+            <h3 class="text-dark">Materiais de qualidade</h3>
+            <p>Produtos elaborados com materiais de alta tecnologia, resistência e procedência.</p>
           </div>
 
           <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-wrench-1 text-primary"></span>
-              <h3 class="text-dark">Profissionais Experientes</h3>
-              <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
-            </div>
+            <span class="custom-icon flaticon-wrench-1 text-primary"></span>
+            <h3 class="text-dark">Profissionais Experientes</h3>
+            <p>Equipe de profissionais especializados, com mais de 10 anos de experiências.</p>
           </div>
 
           <div class="col-md-4 text-center">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-contract text-primary"></span>
-              <h3 class="text-dark">Preços Justo</h3>
-              <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
-            </div>
+            <span class="custom-icon flaticon-contract text-primary"></span>
+            <h3 class="text-dark">Preços Justo</h3>
+            <p>A união da qualidade com a experiência, garante o preço justo aos nossos clientes.</p>
           </div>
         </div>
       </div>
@@ -172,54 +176,43 @@
           </div>
         </div>
         <div class="owl-carousel nonloop-block-13 mb-5">
-          <div class="property">
-            <a href="property-single.html">
-              <img src="images/servico_01.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="property">
-            <a href="property-single.html">
-              <img src="images/servico_02.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="property">
-            <a href="property-single.html">
-              <img src="images/servico_03.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="property">
-            <a href="property-single.html">
-              <img src="images/servico_04.jpg" alt="Image" class="img-fluid">
-            </a>
-          </div>
+          <?php
+            for ($i=1; $i < 8; $i++) { 
+              ?>
+              <div class="property">
+                <img src="images/servico_0<?php echo $i ?>.jpg" alt="Image" class="img-fluid">
+              </div>
+              <?php
+            }
+          ?>
         </div>
         <div class="row how-it-works">
           <div class="col-md-6 text-center how-it-works">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-roof-1 text-primary"></span>
-              <h3 class="text-dark">Coberturas de Vidro</h3>
-              <p>A cobertura de vidro proporciona em seu ambiente varios beneficios, como beleza, durabilidade,
-                resistência. Aproveitamento da luz solar, nas opções fixas e retráteis. Podendo ser instalado
-                em garagem, lavanderias, churrasqueiras ou onde for necessário. 
-                Tendo opções de ser instalada com pelicula prata 0.6 refletiva, rejeitando ate 92% da energia solar.
-                <b>Extrutura para vidro:</b>
-                Vidro 8 milimetros incolor Perfil de alumínio pintura epóxi calha com pintura epóxi retratil motor p.p.a 
-                digital, retratil manual e fixa.
-              </p>
-            </div>
+            <span class="custom-icon flaticon-roof-1 text-primary"></span>
+            <h3 class="text-dark">Coberturas de Vidro</h3>
+            <p>As coberturas de vidros, com opções de fixa e retráteis, proporciona um ambiente charmoso e com os 
+              beneficios de durabilidade, resistência, visibilidade e beleza. Podendo ser instalado em garagem, 
+              lavanderias, churrasqueiras ou onde for necessário. Com opções de pelicula prata 0.6 refletiva, 
+              rejeitando até 92% da energia solar.
+              <br>
+            <b>Extrutura:</b>
+              Vidro de 8mm incolor, perfil e calha de alumínio com pintura epóxi. Nas opções Fixa ou Retrateis, 
+              com motor p.p.a digital e manual.
+            </p>
           </div>
 
           <div class="col-md-6 text-center how-it-works">
-            <div class="pr-5">
-              <span class="custom-icon flaticon-roof text-primary"></span>
-              <h3 class="text-dark">Coberturas de Policarbonato</h3>
-              <p>Chapas 6 ou 10 milimetros produto de alta qualidade, trazendo beleza, durabilidade, passagem de luz solar.
-                Podendo ser aplicado em extruturas retas ou curvas. O policarbonato oferece varias cores, sendo elas:
-                bronze, fume, cristal, azul, verde, branco, prata e pérola.
-                <b>Extrutura para policarbonato:</b>
-                Alumínio e calha com pintura epóxi, podendo ser retrátil motorizada, fixa ou retratil manual.
-              </p>
-            </div>
+            <span class="custom-icon flaticon-roof text-primary"></span>
+            <h3 class="text-dark">Coberturas de Policarbonato</h3>
+              <p>As coberturas de Policarbonato de alta qualidade proporciona durabilidade, passagem de luz solar e 
+                beleza ao seu ambiente, podendo ser aplicado em extruturas retas ou curvas, nas opções fixa e 
+                retratés. O policarbonato oferece varias cores, sendo elas: bronze, fume, cristal, azul, verde, 
+                branco, prata e pérola.
+              <br>
+              <b>Extrutura:</b>
+                Chapas de Policarbonato com 6 ou 10mm, extrutura e calha em aluminio com pintura epóxi, nas apções 
+                Fixa ou retratés motorizada ou manual.
+            </p>
           </div>
 
         </div>
@@ -242,24 +235,24 @@
         </div>
         <div class="row">
           <div class="col-md-7 mb-5">
-            <form action="sendmail.php" class="p-5 bg-white">
+            <form action="sendmail.php" method="post" class="p-5 bg-white">
               <!-- <h2 class="h4 text-black mb-5">Contato</h2> -->
               <div class="row form-group">
                 <div class="col-md-12 mb-6 mb-md-0">
-                  <label class="text-black" for="fname">Nome</label>
-                  <input type="text" id="fname" class="form-control">
+                  <label class="text-black" for="fnamel">Nome</label>
+                  <input type="text" id="fname" name="fname" class="form-control">
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="email">E-mail</label>
-                  <input type="email" id="email" class="form-control">
+                  <label class="text-black" for="emaill">E-mail</label>
+                  <input type="email" id="email" name="email" class="form-control">
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="phone">Telefone</label>
-                  <input type="phone" id="phone" class="form-control">
+                  <label class="text-black" for="phonel">Telefone</label>
+                  <input type="phone" id="phone" name="phone" class="form-control">
                 </div>
               </div>
               <div class="row form-group">
@@ -286,7 +279,7 @@
               <p class="mb-0 font-weight-bold">E-mail</p>
               <p class="mb-0"><a href="#">contato@griffcoberturas.com.br</a></p>
               <br>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.557330100153!2d-49.210477700000006!3d-25.519805900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa70799f6ac9%3A0xdf962fa8025dfb5b!2sR.+Leonel+Bassan%2C+323+-+Cidade+Jardim%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83035-460!5e0!3m2!1spt-BR!2sbr!4v1429972720971" width="410" height="350" frameborder="0" style="border:0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.557330100153!2d-49.210477700000006!3d-25.519805900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa70799f6ac9%3A0xdf962fa8025dfb5b!2sR.+Leonel+Bassan%2C+323+-+Cidade+Jardim%2C+S%C3%A3o+Jos%C3%A9+dos+Pinhais+-+PR%2C+83035-460!5e0!3m2!1spt-BR!2sbr!4v1429972720971" width="100%" height="350" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
         </div>
@@ -355,6 +348,8 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 
+  <script src="js/gallery/jquery.prettyPhoto.js"></script>
+  <script src="js/gallery/jquery.isotope.min.js"></script>
 
   <script src="js/main.js"></script>
 
