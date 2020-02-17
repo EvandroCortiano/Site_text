@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/gallery/font-awesome.min.css" rel="stylesheet">
   <link href="css/gallery/prettyPhoto.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 
 </head>
 
@@ -238,7 +238,7 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/gallery/jquery.prettyPhoto.js"></script>
   <script src="js/gallery/jquery.isotope.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 
 </body>
 

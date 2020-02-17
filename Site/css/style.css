@@ -584,7 +584,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0;
       top: 0;
-      background: rgba(52, 58, 64, 0.9); }
+      background: rgba(52, 58, 64, 0.5); }
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;

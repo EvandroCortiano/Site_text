@@ -33,7 +33,7 @@
 
   <link rel="stylesheet" href="css/aos.css">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 
 </head>
 
@@ -351,7 +351,30 @@
   <script src="js/gallery/jquery.prettyPhoto.js"></script>
   <script src="js/gallery/jquery.isotope.min.js"></script>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
+
+  <!-- banner -->
+  <script>
+    var img = 2;
+    trocaImg();
+    function trocaImg(){
+      setTimeout(function(){
+        if(img == 1){
+          $("#home-section").css('background-image','url(images/banner_2.jpg)')
+          img++;
+          trocaImg();
+        } else if(img == 2){
+          $("#home-section").css('background-image','url(images/banner_1.jpg)')
+          img--;
+          trocaImg();
+        } else {
+          $("#home-section").css('background-image','url(images/banner_1.jpg)')
+          img = 1;
+          trocaImg();
+        }
+      }, 5000);
+    }
+  </script>
 
 </body>
 
