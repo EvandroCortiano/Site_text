@@ -190,13 +190,13 @@
           <div class="col-md-6 text-center how-it-works">
             <span class="custom-icon flaticon-roof-1 text-primary"></span>
             <h3 class="text-dark">Coberturas de Vidro</h3>
-            <p>As coberturas de vidros, com opções de fixa e retráteis, proporciona um ambiente charmoso e com os 
-              beneficios de durabilidade, resistência, visibilidade e beleza. Podendo ser instalado em garagem, 
-              lavanderias, churrasqueiras ou onde for necessário. Com opções de pelicula prata 0.6 refletiva, 
-              rejeitando até 92% da energia solar.
+            <p>As coberturas de vidros, com opções de fixa e retráteis, proporcionam um ambiente charmoso e com os 
+              benefícios de durabilidade, resistência, visibilidade e beleza. Podendo ser instalado em garagem, lavanderias, 
+              churrasqueiras ou onde for necessário. Com opções de película prata 0.6 refletiva, rejeitando até 92% da 
+              energia solar.
               <br>
-            <b>Extrutura:</b>
-              Vidro de 8mm incolor, perfil e calha de alumínio com pintura epóxi. Nas opções Fixa ou Retrateis, 
+            <b>Estrutura:</b>
+              Vidro de 8mm incolor, perfil e calha de alumínio com pintura epóxi. Nas opções Fixa ou Retráteis, 
               com motor p.p.a digital e manual.
             </p>
           </div>
@@ -205,13 +205,13 @@
             <span class="custom-icon flaticon-roof text-primary"></span>
             <h3 class="text-dark">Coberturas de Policarbonato</h3>
               <p>As coberturas de Policarbonato de alta qualidade proporciona durabilidade, passagem de luz solar e 
-                beleza ao seu ambiente, podendo ser aplicado em extruturas retas ou curvas, nas opções fixa e 
-                retratés. O policarbonato oferece varias cores, sendo elas: bronze, fume, cristal, azul, verde, 
-                branco, prata e pérola.
+              beleza ao seu ambiente, podendo ser aplicado em estruturas retas ou curvas, nas opções fixa e 
+              retráteis. O policarbonato oferece varias cores, sendo elas: bronze, fume, cristal, azul, verde, 
+              branco, prata e pérola.
               <br>
-              <b>Extrutura:</b>
-                Chapas de Policarbonato com 6 ou 10mm, extrutura e calha em aluminio com pintura epóxi, nas apções 
-                Fixa ou retratés motorizada ou manual.
+              <b>Estrutura:</b>
+              Chapas de Policarbonato com 6 ou 10mm, estrutura e calha em alumínio com pintura epóxi, nas opções 
+              Fixa ou retráteis motorizada ou manual.
             </p>
           </div>
 

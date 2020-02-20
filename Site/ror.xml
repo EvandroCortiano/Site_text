@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.griffcoberturas.com.br/</title>
+  <link>http://www.griffcoberturas.com.br/</link>
+
+<item>
+     <link>http://www.griffcoberturas.com.br/</link>
+     <title>Griff Coberturas</title>
+     <description>Griff Coberturas</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.griffcoberturas.com.br/gallery.php</link>
+     <title>Griff Coberturas</title>
+     <description>Griff Coberturas</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.griffcoberturas.com.br/index.php</link>
+     <title>Griff Coberturas</title>
+     <description>Griff Coberturas</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
