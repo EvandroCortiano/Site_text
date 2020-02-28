@@ -87,7 +87,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-8 mt-lg-6 text-center" style="padding-top: 10px;">
-            <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid" width="300px">
+            <img src="images/logo.png" alt="Logo Griff Coberturas" class="img-fluid" width="350px" style="padding-bottom:25px">
             <h1>Harmonize seu ambiente com as coberturas de vidro e policarbonato, fixa ou retráteis!</h1>
           </div>
         </div>
@@ -196,7 +196,7 @@
               energia solar.
               <br>
             <b>Estrutura:</b>
-              Vidro de 8mm incolor, perfil e calha de alumínio com pintura epóxi. Nas opções Fixa ou Retráteis, 
+              Vidro de 8mm incolor, perfil e calha de alumínio com pintura epóxi. Nas opções Fixa ou Retrá  teis, 
               com motor p.p.a digital e manual.
             </p>
           </div>
