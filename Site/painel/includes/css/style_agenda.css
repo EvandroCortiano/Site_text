@@ -1,0 +1,161 @@
+/*
+*	Arquivo de configuração de layout [css]
+*	do painel administrativo opção AGENDA
+*/
+.botoes{
+	width: 500px;
+	margin: 60px auto 10px auto;
+}
+.btcad{
+	width: 180px;
+	height: 60px;
+	padding: 5px;
+	float: left;
+	background: #4682B4;
+	border-radius:10px;
+}
+	.btcad img{
+		float: left;
+		width: 60px;
+	}
+	.btcad h2{
+	color: #fff;
+	padding: 14px 2px 0px 65px;
+	font-size: 17pt;
+	}
+.btlist{
+	width: 180px;
+	height: 60px;
+	padding: 5px;
+	float: right;
+	background: #4682B4;
+	border-radius:10px;
+}
+	.btlist img{
+		float: left;
+		width: 60px;
+	}
+	.btlist h2{
+	color: #fff;
+	padding: 14px 2px 0px 85px;
+	font-size: 17pt;
+	}	
+
+
+/* CADASTRAR AGENDA CONFIGURACOES */
+#cad_agenda{
+	width: 100%;
+}
+
+#cont h1{
+	font-family: tahoma, verdana, arial, sans-serif;
+	font-size: 18pt;
+	color: #444;
+	font-style: oblique;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 50px;
+}
+
+#cad_agenda form{
+	margin: 20px auto 10px auto;
+	width: 650px;
+}
+
+#cad_agenda label{
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #222;
+	padding: 15px 3px 15px 3px;
+	font-weight: 800;
+}
+
+#cad_agenda input{
+	
+	padding: 5px;
+	border: 1px solid #4682B4;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+
+#cad_agenda input[type='submit']{
+		border: 0px;
+		background: #4682B4;
+		width: 100px;
+		height: 40px;
+		color: #fff;
+		font-size: 12pt;
+		letter-spacing: 2px;
+	}
+/* Cadastro videos e fotos */
+#cad_agenda input[name="nome"]{
+	width: 510px;
+	height: 23px;
+}
+#cad_agenda input[type="file"]{
+	width: 400px;
+	padding:5px;
+}
+
+/* LISTAR AGENDA CONFIGURACOES */
+table{
+	margin: 15px auto 10px auto;
+	width: 100%;
+	word-break:break-all;
+}
+table tr td{
+	padding: 5px 0px 5px 0px;
+}
+.fonttitulo{
+	font-family: verdana, arial, sans-serif;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	color: #444;
+	font-align: center;
+	font-weight: bold;
+}
+.fontdados{
+	font-size: 10pt;
+	color: #222;
+}
+.fontdados .imgfoto{
+	width: 150px;
+}
+.pagi_agenda{
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	margin: 15px;
+}
+.pagi_agenda a{
+	color: #4682B4;
+}
+
+/* LISTAR FOTOS CONFIGURACAO*/
+table tr td iframe{
+	width: 200px;
+	height: 100px;
+}
+
+/* USUARIOS */
+#cad_agenda select{
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #4682B4;
+	border-radius: 5px;
+	margin: 10px 0px;
+}
+#cad_agenda input[id="adm_nome"]{
+	width: 200px;
+}
+#cad_agenda input[id="adm_user"]{
+	width: 150px;
+}
+#cad_agenda input[id="adm_senha"]{
+	width: 120px;
+}
+#cad_agenda label[for='atencao']{
+	font-size: 9pt;
+	color: #ff0000;
+	font-style: oblique;
+}

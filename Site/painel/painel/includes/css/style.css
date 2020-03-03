@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, verdana, arial, sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+body{
+	background: #eee;
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+
+
+/* Fontes Painel */
+.font_top{
+	font-family: Calibri, tahoma, verdana, sans-serif;
+	color: #555;
+	font-size: 10pt;
+}
+.font_version{
+	font-family: tahoma, verdana, sans-serif;
+	color: #555;
+	font-size: 8pt;
+}
+.font_user{
+	font-family: calibri, tahoma, verdana, sans-serif;
+	color: #333;
+	font-size: 11pt;
+	font-weight: bold;
+}
+.font_hora{
+	font-family: calibri, tahoma, verdana, sans-serif;
+	color: #444;
+	font-size: 11pt;
+	padding: 10px;
+}
+.font_sair{
+	font-family: calibri, tahoma, verdana, sans-serif;
+	font-size: 12pt;
+}
+.font_sair a{
+	color: #ff0000;
+	font-style: oblique;
+	font-weight: 800;
+}
+.font_menu{
+	font-family: verdana, tahoma, sans-serif;
+	color: #fff;
+	font-size: 11pt;
+}
+
+
+/* Topo */
+#top_adm{
+	width: 100%;
+	min-width: 800px;
+	height: 110px;
+	background: #f0f0e1;
+	border-bottom: solid 3px #4682B4;
+}
+#cont_top_adm{
+	width: 790px;
+	margin: 0 auto;
+}
+#cont_top_adm label{
+	display: block;
+	padding-top: 3px;
+}
+#cont_top_adm .user{
+	display: inline-block;
+	float: right;
+	margin-top: 65px;
+	width: 550px;
+	text-align: right;
+}
+#top_adm .logo_adm{
+	width: 220px;
+	float: left;
+	height: 95px;
+}
+#top_adm .logo_adm img{
+	width: 220px;
+	margin: 12px auto;
+}
+
+
+/* Menu */
+#menu_adm{
+	width: 800px;
+	height: 35px;
+	margin: 0 auto;
+	background: #4682B4;
+		-moz-border-radius-bottomleft:10px;
+		-moz-border-radius-bottomright:10px;
+		-webkit-border-bottom-left-radius:10px;
+		-webkit-border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+}
+#menu_adm .menu_center{
+	width: 300px;
+	margin: 0 auto;
+}
+	#menu_adm .menu_center ul,
+	#menu_adm .menu_center li,
+	#menu_adm .menu_center a{
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	#menu_adm .menu_center a{
+		display: block;
+		padding: 5px 30px 12px 30px;
+		text-decoration: none;
+	}
+	#menu_adm .menu_center ul{
+		list-style: none;
+	}
+	#menu_adm .menu_center > ul > li{
+	  display: inline-block;
+	  float: left;
+	  margin: 0;
+	}
+	#menu_adm .menu_center > ul > li:hover:after{
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #f0f0e1;
+		margin-left: -10px;
+	}
+	#menu_adm .menu_center .adm_sub:hover > ul{
+		display: block;
+	}
+	#menu_adm .menu_center .adm_sub ul{
+		display: none;
+		position: absolute;
+		width: 140px;
+		left: 0;
+	}
+	#menu_adm .menu_center .adm_sub ul li a {
+		background: #f0f0e1;
+		border-bottom: 1px dotted #4682B4;
+		font-size: 11px;
+		filter: none;
+		display: block;
+		line-height: 120%;
+		padding: 10px;
+		color: #333;
+	}
+
+
+/* Corpo */
+#cont{
+	width: 780px;
+	min-height: 280px;
+	margin: 5px auto 70px auto;
+	background: #fff;
+	padding: 13px;
+	border-radius: 8px;
+}
+
+/* Pagina Principal */
+#cont .admprincipal{
+	width: 600px;
+	margin: 100px auto;
+	text-align: center;
+}
+#cont .admprincipal a{
+	text-decoration: none;
+	margin: 25px;
+}
+
+
+
+/* Rodape */
+#rodape_adm{
+	width: 100%;
+	height: 35px;
+	position: fixed;
+	bottom: 0px;
+	background: #F0F0E1;
+	border-top: solid 3px #4682B4;
+}
+#rod_cont_adm{
+	width: 800px;
+	margin: 0 auto;
+}
+#rod_cont_adm .version{
+	width: 55px;
+	margin-top: 5px;
+	float: right;
+}
+
+/* Login */
+#login form{
+	width: 300px;
+	margin: 40px auto;
+	padding: 10px;
+}
+#login form h3{
+	margin: 20px;
+	text-align: center;
+	font-family: Tahoma, verdana, arial, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: oblique;
+}
+#login label{
+	font-family: verdana, tahoma, arial, sans-serif;
+	font-size: 10pt;
+	color: #222;
+	padding: 15px 3px 15px 3px;
+	font-weight: 800;
+}
+#login input{
+	height: 22px;
+	padding: 5px;
+	border: 1px solid #4682B4;
+	border-radius: 5px;
+	margin: 5px 0px;
+}
+#login input[id="txUsuario"]{
+	width: 220px;
+}
+#login input[id="txSenha"]{
+	width: 230px;
+}
+#login input[type='submit']{
+		margin: 10px 0px 0px 210px;
+		border: 0px;
+		background: #4682B4;
+		width: 80px;
+		height: 30px;
+		color: #fff;
+		font-size: 12pt;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+
+
+
+
+
+
