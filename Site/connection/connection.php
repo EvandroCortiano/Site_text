@@ -1,17 +1,19 @@
 <?php
 	
-	//dados para acessar o banco
+	//dados para acessar via local
 	$server = 'localhost';
 	$login = 'root';
-	$senha = 'root';
+	$senha = 'andromeda';
+	$banco = 'griff';
 
-	//dados para acessar o banco
+	//dados para acessar via 
 	// $server = 'mysql.griffcoberturas.com.br';
 	// $login = 'griff1br';
 	// $senha = '27grif23';
+	// $banco = 'griffcoberturas';
 	
 	//conectar com o servidor
-	$conexao = mysql_connect($server,$login,$senha);
+	$conexao = mysqli_connect($server,$login,$senha,$banco);
 
 	//Caso ocorra erro no acesso
 	if (!$conexao)
@@ -19,5 +21,5 @@
 
 	//Conecta ao banco
 	// mysql_select_db("griff1br",$conexao);
-	mysql_select_db("griffcoberturas",$conexao);
+	// mysqli_select_db("griffcoberturas",$conexao);
 ?>

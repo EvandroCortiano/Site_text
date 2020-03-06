@@ -2,7 +2,7 @@
 	// inclus�o script cpnfig.php
 	include 'includes/config.php';
 	// Atribui nome a pagina
-	$page_title = ".: Painel Administrativo Daniele Janzen :.";	
+	$page_title = ".: Painel Griff Coberturas :.";	
 
 ?>
 <html lang="pt-br">
@@ -10,9 +10,7 @@
 	<meta charset="UTF-8">	
 	<title><?=APP_TITLE ?> - <?=$page_title?></title>
     <meta name="webauthor" content="Evandro Cassio Cortiano" />
-	
 	<link rel="stylesheet" type="text/css" href="includes/css/style.css" />
-	
 </head>
 <body>
 	<!-- TOP -->
