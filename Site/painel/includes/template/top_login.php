@@ -6,7 +6,7 @@
 	
 		<div class="logo_adm" >
 			<a href="principal.php">
-				<img src="imagens/logo.png" alt="Cantora Daniele Janzen" />
+				<img src="imagens/logo.png" alt="Griff Coberturas" />
 			</a>
 		</div>
 	

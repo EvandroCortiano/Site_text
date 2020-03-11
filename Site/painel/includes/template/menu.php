@@ -9,6 +9,15 @@
 					</li>
 				</ul>		
 			</li>
+
+			<li class="adm_sub"><a href="adm_videos.php" class="font_menu" > Videos </a>
+				<ul>
+					<li>
+						<a href="cad_videos.php" class="font_menu" > Cadastrar </a>
+						<a href="lista_videos.php" class="font_menu" > Listar </a>
+					</li>
+				</ul>		
+			</li>
 			
 			<li class="adm_sub"><a href="adm_users.php" class="font_menu" > Usuários </a>
 				<ul>

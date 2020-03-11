@@ -53,10 +53,10 @@
 					
 					// seleciona todos os itens da tabela
 					$sql_select = "select * from fotos";
-					$fotos = mysql_query($sql_select);
+					$fotos = mysqli_query($conexao, $sql_select);
 					
 					// conta o total de itens
-					$total = mysql_num_rows($fotos);
+					$total = mysqli_num_rows($fotos);
 					
 					//seta a quantidade de intens por página, neste caso, 2 itens
 					$registro = 9;
@@ -69,14 +69,14 @@
 					
 					// seleciona os itens por página
 					$sql_select = "SELECT * FROM fotos ORDER BY id DESC LIMIT $inicio,$registro";
-					$fotos = mysql_query($sql_select);
-					$total = mysql_num_rows($fotos);
+					$fotos = mysqli_query($conexao, $sql_select);
+					$total = mysqli_num_rows($fotos);
 					
 					// declara modd para uso das cores de linhas
 					$modd = 0;
 					
 					//exibe os produtos selecionados
-					while ($result = mysql_fetch_array($fotos)){ ?>
+					while ($result = mysqli_fetch_array($fotos)){ ?>
 						
 						<!-- Cada linha de resultado com uma cor -->
 						<?php 						
@@ -90,7 +90,7 @@
 						?> 
 		
 						<tr class="fontdados" bgcolor="<?php echo $corlinha ?>">
-							<td> <img src="../public/upload/<?php echo $result['foto']; ?>" class="imgfoto" /></td>
+							<td> <img src="../gallery/upload/<?php echo $result['foto']; ?>" class="imgfoto" /></td>
 							<td> <?php echo utf8_encode($result['nome']);?></td>
 							<td align="center"><a href="delete/excluirfoto.php?id_foto=<?php echo $result['id'] ?>&nm_foto=<?php echo $result['foto'] ?>" title="Excluir" onclick="return confirm('Tem certeza que deseja excluir esta foto?')"><img src="imagens/excluir.png" width="20px" /></a></td>
 							<td align="center"><a href="upd_fotos.php?id_foto=<?php echo $result['id'] ?>"><img src="imagens/atualizar.png" width="20px" /></a></td>

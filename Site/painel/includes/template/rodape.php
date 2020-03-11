@@ -3,7 +3,7 @@
 		
 		 <!-- Versao do sistema --> 
 		<div class="version font_version" >
-			EvandroSys <br/> Version 1.1
+			EvandroSys <br/> Version 1.2
 		</div>
 		
 	</div>

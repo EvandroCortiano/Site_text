@@ -13,6 +13,7 @@
 	// $banco = 'griffcoberturas';
 	
 	//conectar com o servidor
+	mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 	$conexao = mysqli_connect($server,$login,$senha,$banco);
 
 	//Caso ocorra erro no acesso

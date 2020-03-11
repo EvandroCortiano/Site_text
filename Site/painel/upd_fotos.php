@@ -44,14 +44,14 @@
 			<h1> Atualizar Foto </h1>
 			
 			<?php 
-				$query = mysql_query("SELECT * FROM fotos WHERE id = $fotoid");
+				$query = mysqli_query($conexao, "SELECT * FROM fotos WHERE id = $fotoid");
 				
-				while ($result = mysql_fetch_array($query)){
+				while ($result = mysqli_fetch_array($query)){
 			?>			
 			<!-- Formulario de cadastro -->
 			<form action="update/atualizarfotos.php?id_foto=<?php echo $result['id']; ?>" id="form" name="form" method="post">
 				<label>Foto postada:</label>
-				<div class="ftupd"><img src="../public/upload/<?php echo $result['foto']; ?>" class="imgfoto" /></div>
+				<div class="ftupd"><img src="../gallery/upload/<?php echo $result['foto']; ?>" class="imgfoto" /></div>
 				<br/>
 				<label for="legfoto"> Legenda da foto: </label>
 				<input type="text" id="legfoto" name="legfoto" value="<?php echo utf8_encode($result['nome']);?>" required />

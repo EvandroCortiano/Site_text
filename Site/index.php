@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta name="google-site-verification" content="Q1sNLukHSbZ5bXIQysCx5HTcMO2H6HhPnEUnv7ux5no" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564967-1"></script>
   <script>
       window.dataLayer = window.dataLayer || [];
@@ -15,7 +16,7 @@
   <title>Griff Coberturas</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:400,700,900 " rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
 

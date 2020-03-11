@@ -2,7 +2,7 @@
 	// inclus�o script cpnfig.php
 	include 'includes/config.php';
 	// Atribui nome a pagina
-	$page_title = ".: Painel Administrativo Daniele Janzen :.";	
+	$page_title = ".: Painel Administrativo Griff Coberturas :.";	
 
 ?>
 <html lang="pt-br">

@@ -5,13 +5,15 @@
 	$fotoid = $_GET['id_foto'];
 	$foto = $_GET['nm_foto'];
 	
-	$sql2="delete from fotos where id='$fotoid'";
-	mysql_query($sql2,$conexao);
+	$sql2="DELETE FROM fotos WHERE id = $fotoid;";
+	$retsult = mysqli_query($conexao, $sql2);
 	
-	chmod("../../public/upload", 0777);
-	if(unlink("../../public/upload/$foto"));
-	
-	echo "<script> alert('Exclusao realizada com sucesso!'),window.open('../lista_fotos.php','_self')</script>";
-
-
+	if($retsult === true){
+		chmod("../../gallery/upload", 0777);
+		if(unlink("../../gallery/upload/$foto"));
+		
+		echo "<script> alert('Exclusao realizada com sucesso!'),window.open('../lista_fotos.php','_self')</script>";
+	} else {
+		echo "<script> alert('Erro ao excluir foto!'),window.open('../upd_fotos.php?id_foto=$fotoid.php','_self')</script>";
+	}
 ?>

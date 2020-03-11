@@ -37,6 +37,7 @@
 	<div id="cont">
 		<div class="admprincipal">
 			<a href="adm_fotos.php"><img src="imagens/foto.png" /></a>
+			<a href="adm_videos.php"><img src="imagens/foto.png" /></a>
 		</div>	
 	</div>
 	

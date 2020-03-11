@@ -10,11 +10,16 @@ $fotoid = $_GET['id_foto'];
 $legenda = utf8_decode($_POST['legfoto']);
 
 // Query responsavel pela atualização dos dados no banco de dados
-$query = "UPDATE fotos SET legfoto='$legenda' WHERE id_foto='$fotoid'";
+$query = "UPDATE fotos SET nome = '$legenda' WHERE id = $fotoid;";
 
-mysql_query($query, $conexao) or die ("Nao foi possivel inserir os dados");
+// mysqli_query($conexao, $query) or die ("Nao foi possivel inserir os dados");
+$result = mysqli_query($conexao, $query);
 
-// echo retorna atualizando a pagina com os dados do banco de dados
-echo "<script> parent.location.href='../lista_fotos.php'</script>";
+if($result === true){
+    // echo retorna atualizando a pagina com os dados do banco de dados
+    echo "<script> parent.location.href='../lista_fotos.php'</script>";
+} else {
+    echo "<script> alert('Erro ao atualizar fotos!'),window.open('../cad_fotos.php','_self')</script>";
+}
 
 ?>
