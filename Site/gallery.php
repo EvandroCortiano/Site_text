@@ -94,6 +94,8 @@
           <!-- Carregas imagens e videos -->
           <ul class="portfolio-items col-md-12">
 
+            <?php include ('find_sql.php'); ?>
+
             <?php
               // array com as imagens e videos
               $data = [
