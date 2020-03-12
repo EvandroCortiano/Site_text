@@ -7,4 +7,6 @@ define("APP_TITLE","Griff Coberturas");
 	$timestamp = mktime(date("H")-3, date("i"), date("s"), date("m"), date("d"), date("Y"));
 	$data_hora = gmdate("d/m/Y H:i", $timestamp);
 
+	$title_sys = ".: Griff Coberturas :.";
+
 ?>

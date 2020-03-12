@@ -14,15 +14,15 @@
 	background: #4682B4;
 	border-radius:10px;
 }
-	.btcad img{
-		float: left;
-		width: 60px;
-	}
-	.btcad h2{
+.btcad img{
+	float: left;
+	width: 60px;
+}
+.btcad h2{
 	color: #fff;
 	padding: 14px 2px 0px 65px;
 	font-size: 17pt;
-	}
+}
 .btlist{
 	width: 180px;
 	height: 60px;
@@ -31,15 +31,15 @@
 	background: #4682B4;
 	border-radius:10px;
 }
-	.btlist img{
-		float: left;
-		width: 60px;
-	}
-	.btlist h2{
+.btlist img{
+	float: left;
+	width: 60px;
+}
+.btlist h2{
 	color: #fff;
 	padding: 14px 2px 0px 85px;
 	font-size: 17pt;
-	}	
+}	
 
 
 /* CADASTRAR AGENDA CONFIGURACOES */
@@ -79,14 +79,14 @@
 }
 
 #cad_agenda input[type='submit']{
-		border: 0px;
-		background: #4682B4;
-		width: 100px;
-		height: 40px;
-		color: #fff;
-		font-size: 12pt;
-		letter-spacing: 2px;
-	}
+	border: 0px;
+	background: #4682B4;
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	font-size: 12pt;
+	letter-spacing: 2px;
+}
 /* Cadastro videos e fotos */
 #cad_agenda input[name="nome"]{
 	width: 510px;
@@ -102,16 +102,18 @@ table{
 	margin: 15px auto 10px auto;
 	width: 100%;
 	word-break:break-all;
+	border-collapse: collapse;
 }
 table tr td{
-	padding: 5px 0px 5px 0px;
+	padding: 3px 0px 3px 0px;
+	border: 1px solid #dddddd;
 }
 .fonttitulo{
 	font-family: verdana, arial, sans-serif;
 	font-size: 11pt;
 	letter-spacing: 1px;
 	color: #444;
-	font-align: center;
+	text-align: center;
 	font-weight: bold;
 }
 .fontdados{
@@ -119,7 +121,9 @@ table tr td{
 	color: #222;
 }
 .fontdados .imgfoto{
-	width: 150px;
+	max-width: 150px;
+	max-height: 110px;
+	padding-left: 10px;
 }
 .pagi_agenda{
 	font-size: 12pt;
@@ -158,4 +162,57 @@ table tr td iframe{
 	font-size: 9pt;
 	color: #ff0000;
 	font-style: oblique;
+}
+
+.btn_action_blue {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 5px;
+	background-color: #4682B4;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn_action_blue:hover {
+	background: rgb(102, 147, 184);
+	border: solid #FFFFFF 0px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.btn_action_default {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 5px;
+	background-color: #E1E1E1;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn_action_default:hover {
+	background: #979797;
+	border: solid #FFFFFF 0px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+#cad_agenda .ftupd img{
+	max-width: 260px;
+	max-height: 350px;
 }

@@ -5,7 +5,7 @@
 	$fotoid = $_GET['id_foto'];
 	$foto = $_GET['nm_foto'];
 	
-	$sql2="DELETE FROM fotos WHERE id = $fotoid;";
+	$sql2="DELETE FROM gallery WHERE id = $fotoid;";
 	$retsult = mysqli_query($conexao, $sql2);
 	
 	if($retsult === true){

@@ -3,7 +3,7 @@
 	include 'includes/config.php';
 	
 	// Atribui nome a pagina
-	$page_title = ".: Painel Administrativo Tecfundy :.";	
+	$page_title = $title_sys;	
 
 	// A sessão precisa ser iniciada em cada página diferente
 	if (!isset($_SESSION)) session_start();
@@ -43,15 +43,30 @@
 			<!-- Formulario de cadastro -->
 			<form action="insert/envia_fotos.php" id="form" method="post" enctype="multipart/form-data">
 			
-				<label for="txNome"> Legenda da foto: </label>
-				<input type="text" name="nome" id="txNome" required />
-				<br/>
 				<label for="txFoto"> Foto: </label>
 				<input type="file" name="arquivo" id="txFoto" required />
 				<br/>
-				<br/><br/>
-				
-				<input type="submit" name="Cadastrar" value="Cadastrar" />								
+				<label for="txNome"> Legenda da foto: </label>
+				<input type="text" name="nome" id="txNome" required />
+				<br/>
+				<br/>
+				<label for="tags">Informação da foto:</label>
+				<br/>
+				<div style="padding: 5px 0px 10px 20px;">
+					<label for="vidro" style="color:#0d12ad;">Vidro:</label>
+					<input type="checkbox" name="vidro" id="vidro" value="S">
+					<label for="sim">Sim</label>
+						<br>
+					<label for="policarbonato" style="color:#0d12ad;">Policarbonato:</label>
+					<input type="checkbox" name="polic" id="polic" value="S">
+					<label for="sim">Sim</label>
+						<br>
+					<label for="retrateis" style="color:#0d12ad;">Retráteis:</label>
+					<input type="checkbox" name="retra" id="retra" value="S">
+					<label for="sim">Sim</label>
+				</div>			
+				<input type="submit" name="Cadastrar" value="Cadastrar" />
+				<a href="lista_fotos.php" class="btn_action_default" style="float:right;">Listar Fotos</a>								
 			
 			</form>
 		</div>

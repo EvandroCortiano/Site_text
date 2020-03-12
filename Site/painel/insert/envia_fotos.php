@@ -40,13 +40,22 @@ if ($arqError == 0) {
 		
 		// Escapa os caracteres protegidos do MySQL (para o nome do usuário)
 		$nomeMySQL = mysqli_real_escape_string($conexao, $_POST['nome']);
-		
+		$tag_vidro = isset($_POST['vidro']) ? $_POST['vidro'] : "N";
+		$tag_polic = isset($_POST['polic']) ? $_POST['polic'] : "N";
+		$tag_retra = isset($_POST['retra']) ? $_POST['retra'] : "N";
+		$tag_img = "S";
+		$tag_video = "N";
+		$ativo = "S";
+
 		$upload = move_uploaded_file($arqTemp, $pasta . $nome);
 		
 		// Verifica se o arquivo foi movido com sucesso
 		if ($upload == true) { 
 			// Cria uma query MySQL
-			$sql = "INSERT INTO fotos (`id`, `nome`, `foto`) VALUES (NULL, '". $nomeMySQL ."', '". $nome ."')";
+			$sql = "INSERT INTO gallery 
+						(`nome`,`foto`,`tag_img`,`tag_video`,`tag_vidro`,`tag_polic`,`tag_retra`,`ativo`) 
+					VALUES 
+						('$nomeMySQL', '$nome', '$tag_img', '$tag_video', '$tag_vidro', '$tag_polic', '$tag_retra', '$ativo')";
 			
 			// Executa a consulta
 			$query = mysqli_query($conexao, $sql);

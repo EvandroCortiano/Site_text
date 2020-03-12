@@ -2,7 +2,7 @@
 	// inclus�o script cpnfig.php
 	include 'includes/config.php';
 	// Atribui nome a pagina
-	$page_title = ".: Painel Administrativo Griff Coberturas :.";	
+	$page_title = $title_sys;
 
 	// A sessão precisa ser iniciada em cada página diferente
 	if (!isset($_SESSION)) session_start();
