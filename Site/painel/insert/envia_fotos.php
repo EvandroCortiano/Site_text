@@ -3,7 +3,6 @@
 // chama a função conexão
 include ('../../connection/connection.php');
 
-
 // Lista de tipos de arquivos permitidos
 $tiposPermitidos= array('image/gif', 'image/jpeg', 'image/pjpeg', 'image/png', 'image/jpg');
 // Tamanho máximo (em bytes)
@@ -65,6 +64,8 @@ if ($arqError == 0) {
 			}
 		}
 	}
+} else if($arqError == 1){
+	echo 'Arquivo maior que 7MB!';
 } else {
 	echo 'Ocorreu algum erro com o upload, por favor tente novamente!';
 }

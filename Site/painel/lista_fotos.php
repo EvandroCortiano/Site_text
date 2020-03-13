@@ -73,7 +73,7 @@
 					$inicio = ($registro*$pagina)-$registro;
 					
 					// seleciona os itens por página
-					$sql_select = "SELECT * FROM gallery ORDER BY id DESC LIMIT $inicio,$registro";
+					$sql_select = "SELECT * FROM gallery WHERE tag_img = 'S' ORDER BY id DESC LIMIT $inicio,$registro";
 					$fotos = mysqli_query($conexao, $sql_select);
 					$total = mysqli_num_rows($fotos);
 					
