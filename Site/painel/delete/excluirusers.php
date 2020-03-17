@@ -4,8 +4,8 @@
 			
 	$userid = $_GET['idusers'];
 	
-	$sql2="delete from usuarios where id='$userid'";
-	mysql_query($sql2,$conexao);
+	$sql2="DELETE FROM usuarios WHERE id='$userid'";
+	mysqli_query($conexao, $sql2);
 				
 	echo "<script> alert('Exclusao realizada com sucesso! Esse usuario nao tem mais acesso ao sistema!'),window.open('../adm_users.php','_self')</script>";
 

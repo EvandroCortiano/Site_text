@@ -56,10 +56,10 @@
 					
 					// seleciona todos os itens da tabela
 					$sql_select = "select * from usuarios ";
-					$users = mysql_query($sql_select);
+					$users = mysqli_query($conexao, $sql_select);
 					
 					// conta o total de itens
-					$total = mysql_num_rows($users);
+					$total = mysqli_num_rows($users);
 					
 					//seta a quantidade de intens por página, neste caso, 2 itens
 					$registro = 8;
@@ -71,15 +71,15 @@
 					$inicio = ($registro*$pagina)-$registro;
 					
 					// seleciona os itens por página
-					$sql_select = "SELECT * FROM usuarios ORDER BY id DESC LIMIT $inicio,$registro";
-					$users = mysql_query($sql_select);
-					$total = mysql_num_rows($users);
+					$sql_select = "SELECT * FROM usuarios WHERE id <> 1 ORDER BY id DESC LIMIT $inicio,$registro";
+					$users = mysqli_query($conexao, $sql_select);
+					$total = mysqli_num_rows($users);
 					
 					// declara modd para uso das cores de linhas
 					$modd = 0;
 					
 					//exibe os produtos selecionados
-					while ($result = mysql_fetch_array($users)){ ?>
+					while ($result = mysqli_fetch_array($users)){ ?>
 						
 						<!-- Cada linha de resultado com uma cor -->
 						<?php 						
@@ -110,7 +110,7 @@
 						</tr>
 					<?php } ?>
 				<tr>
-					<td colspan="4" class="pagi_agenda" >		
+					<td colspan="5" class="pagi_agenda" >		
 					<?php 
 					// exibe a paginação
 					for($i = 1; $i < $numPaginas + 1; $i++){

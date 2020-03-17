@@ -47,9 +47,9 @@
 			<h1> Atualizar Usuários </h1>
 			
 			<?php 
-				$query = mysql_query("SELECT * FROM usuarios WHERE id = $userid");
+				$query = mysqli_query($conexao, "SELECT * FROM usuarios WHERE id = $userid");
 				
-				while ($result = mysql_fetch_array($query)){
+				while ($result = mysqli_fetch_array($query)){
 			?>
 			<!-- Formulario de cadastro -->
 			<form action="update/atualizarusers.php?idusers=<?php echo $result['id']; ?>" id="form" name="form" method="post">

@@ -35,7 +35,7 @@
         <div class="row align-items-center">
           <div class="col-6 col-xl-2">
             <h1 class="mb-0 site-logo m-0 p-0">
-              <a href="index.html" class="mb-0">
+              <a href="index.php" class="mb-0">
                 <img src="images/logo_v2.png" alt="Logo Griff Coberturas" width="120px">
               </a>
             </h1>

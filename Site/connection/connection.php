@@ -1,16 +1,16 @@
 <?php
 	
 	//dados para acessar via local
-	// $server = 'localhost';
-	// $login = 'root';
-	// $senha = 'andromeda';
-	// $banco = 'griff';
+	$server = 'localhost';
+	$login = 'root';
+	$senha = 'andromeda';
+	$banco = 'griff';
 
 	//dados para acessar via 
-	$server = 'mysql.griffcoberturas.com.br';
-	$login = 'u147040911_usernamegriff';
-	$senha = 'BtO]XDGw';
-	$banco = 'u147040911_griff';
+	// $server = 'localhost';
+	// $login = 'u147040911_usernamegriff';
+	// $senha = 'BtO]XDGw';
+	// $banco = 'u147040911_griff';
 	
 	//conectar com o servidor
 	mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);

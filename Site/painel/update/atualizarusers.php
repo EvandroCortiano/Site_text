@@ -15,7 +15,7 @@
 	// Query responsavel pela atualização dos dados no banco de dados
 	$query = "UPDATE usuarios SET nome='$nome', usuario='$usuario', senha='$senha', nivel='$perfil' WHERE id='$id'";
 	
-	mysql_query($query, $conexao) or die ("Nao foi possivel inserir os dados");
+	mysqli_query($conexao, $query) or die ("Nao foi possivel inserir os dados");
 	
 	// echo retorna atualizando a pagina com os dados do banco de dados
 	echo "<script> parent.location.href='../lista_users.php'</script>";
